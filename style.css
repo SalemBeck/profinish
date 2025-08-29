@@ -1,5 +1,5 @@
 body {
- background-image: url('photos/bg.jpg');
+background-color: rgb(203, 209, 205);
  height : 200% ;
 }
 
@@ -31,8 +31,59 @@ body {
 .nav-link:hover {
   color: white;
 }
-.hero {
+.hero { 
+  /* background-image: url('photos/home-deco.jpg'); */
+
   text-align: center;
   margin-top: 50px;
   border: solid tomato 5px;
+}
+.logo {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+.slideshow {
+  text-align: center;
+  min-height: 200px;
+  height: 200px; /* Add this line */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 0.5s;
+}
+.gamme {
+  display: flex;
+  justify-content: center;
+  border: solid black 2px ;
+}
+.products-links {
+  display: block;
+  justify-content: center;
+  border: solid black 2px ;
+}
+.highlights {
+  display: flex;
+  justify-content: center;
+  border: solid black 2px ;
+}
+.selectedproduct {
+  display: flex;
+  justify-content: center;
+  border: solid black 2px ;
+}
+.become-distributor {
+  display: flex;
+  justify-content: center;
+  border: solid black 2px ;
+}
+.actuality {
+  display: flex;
+  justify-content: center;
+  border: solid black 2px ;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  border: solid black 2px ;
 }
