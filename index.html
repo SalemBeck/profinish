@@ -1,52 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>profinish</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profinish — Professional Paints & Finishes</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
-  <meta http-equiv="refresh" content="10">
 </head>
 <body>
-  <div class="navbar">
-    <nav class="nav-links">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="about.html" class="nav-link">About</a>
-      <a href="services.html" class="nav-link">Services</a>
-      <a href="contact.html" class="nav-link">Contact</a>
-    </nav>
-  </div>
-  <div class="hero">
-    <img class="logo"  src="photos/pflogo.png" alt="Profinish">
-    <!-- Add this inside your .hero div -->
-<div id="slideshow" class="slideshow">
-  <p id="slide-text">First paragraph goes here.</p>
-</div>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="photos/pflogo.png" alt="Profinish logo" onerror="this.style.display='none'">
+        <div class="brand">
+          <span class="brand-name">Profinish</span>
+          <small class="brand-tag">Paints • Coatings • Finishes</small>
+        </div>
+      </div>
 
-  </div>
-  <div class="gamme">
-    <h1><i>la gamme profinish</i> </h1>
-    <p class="gammediscription">bla bla bla bla </p>
-  </div>
-  <div class="products-links">
-    <a href="">paint</a>
-    <a href="">paint</a>
-    <a href="">paint</a><br>
-    <a href="">paint</a>
-    <a href="">paint</a>
-    <a href="">paint</a>
-  </div>
-  <div class="highlights"><h1 class="highlighttitle">highlights of profinish</h1>
-    <div class="highlight1"></div>
-    <div class="highlight1"></div>
-    <div class="highlight1"></div>
-  </div>
-  <div class="selectedproduct">lacao vinil</div>
-<div class="become-distributor"><h1 class="distributortitle">become a distributor in profinish</h1></div>
-<div class="actuality"><h1>l'actuality profinish</h1>
-</div>
-<div class="footer">footer</div>
-<script src="script.js"></script>
+      <nav class="nav">
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="navLinks" class="nav-links">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero + slideshow (slideshow background changes while hero remains) -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div id="slideshow" class="slideshow" aria-live="polite">
+          <div class="slide-content">
+            <h2 class="slide-title">High-quality paints for Algeria</h2>
+            <p id="slide-text">We deliver durable, beautiful finishes that last.</p>
+            <a class="btn cta" href="#contact">Get a Free Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gamme / products -->
+    <section class="gamme" id="services">
+      <h1>Our Product Range</h1>
+      <p class="lead">Interior • Exterior • Decorative • Protective coatings</p>
+      <div class="products-links">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1560184897-6c4e6d9db586?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+          <h3>Interior Paints</h3>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+          <h3>Exterior Paints</h3>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="">
+          <h3>Decorative Finishes</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card"><img src="https://images.unsplash.com/photo-1505691723518-34d2c78b21a9?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt=""><p>Residential Renovation</p></div>
+        <div class="project-card"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt=""><p>Commercial Facade</p></div>
+        <div class="project-card"><img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt=""><p>Decorative Works</p></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Contact Profinish</h2>
+      <form class="contact-form" action="#" method="post" onsubmit="alert('Form demo — replace with real backend'); return false;">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> info@profinish.dz</p>
+        <p><strong>Phone:</strong> +213 123 456 789</p>
+        <p><strong>Location:</strong> Algiers, Algeria</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2025 Profinish — All rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
