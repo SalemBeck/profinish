@@ -7,11 +7,11 @@ const slides = [
   },
   {
     text: "Second paragraph with a new background.",
-    bg: "photos/bg.jpg"
+    bg: "photos/bg3.jpg"
   },
   {
     text: "Third paragraph and another background.",
-    bg: "photos/images.jpg"
+    bg: "photos/bg2.jpg"
   }
 ];
 
