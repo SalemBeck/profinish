@@ -32,8 +32,6 @@ background-color: rgb(203, 209, 205);
   color: white;
 }
 .hero { 
-  /* background-image: url('photos/home-deco.jpg'); */
-
   text-align: center;
   margin-top: 50px;
   border: solid tomato 5px;
@@ -54,8 +52,34 @@ background-color: rgb(203, 209, 205);
 }
 .gamme {
   display: flex;
-  justify-content: center;
-  border: solid black 2px ;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;       
+  border: solid black 2px;
+  text-align: center;       
+  padding: 24px 0;           
+}
+.gamme h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-bottom: 16px;
+  position: relative;
+  display: inline-block;
+}
+
+.gamme h1::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(90deg, #2e0fdf 40%, #0a7b48 100%);
+  border-radius: 2px;
+  margin: 8px auto 0 auto;
+}
+.gamme p {
+  font-size: 20px;
+  font-family: cursive;
+  margin-bottom: 16px;
 }
 .products-links {
   display: block;
