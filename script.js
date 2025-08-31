@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const slides = [
     {
       text: "We deliver durable, beautiful finishes for homes and businesses.",
-      bg: "https://images.unsplash.com/photo-1558980664-10e7172c9a25?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+      bg: "https://images.unsplash.com/photo-1512850183-6d7990f42385?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmVydGljYWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
     },
     {
       text: "Expert color consultation and professional application.",
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       text: "Protective, weather-resistant exterior coatings.",
-      bg: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+      bg: "https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13fGVufDB8fDB8fHww"
     }
   ];
 
