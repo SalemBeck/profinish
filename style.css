@@ -17,11 +17,11 @@ body{
 
 /* Header */
 .header{
-  background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.85));
+  background:linear-gradient(180deg, rgba(97, 244, 23, 0.9), rgba(255,255,255,0.85));
   position:sticky;
   top:0;
   z-index:60;
-  border-bottom:4px solid rgba(10,123,72,0.08);
+  border-bottom:4px solid rgb(236, 244, 240);
 }
 .container{
   max-width:1100px;
